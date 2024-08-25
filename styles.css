@@ -1,0 +1,25 @@
+body {
+    background: url('https://i.imgur.com/eKsUiZY.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.clock {
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    font-size: 200px;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 
+        0 0 2px rgba(183, 0, 141, 0.8), /* Reduced glowing effect */
+        1px 1px 2px rgba(0, 0, 0, 1); /* Reduced drop shadow */;
+        
+    /* Gradient text */
+    background: linear-gradient(0deg, black, darkgray); /* Black gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Transparent text to show gradient */
+    background-clip: text;
+    text-fill-color: transparent;
+}
